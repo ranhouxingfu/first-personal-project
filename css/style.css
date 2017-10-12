@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Î¢ÈíÑÅºÚ';
+    /*background: rgba(244,244,244,1);*/
+    background: #ecdfd0;
+    /*overflow: hidden;*/
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 0;
+}
+.top-menu{
+    /*background: rgba(28,44,59,.1);*/
+    margin-bottom: 0;
+    background: #d0b394;
+}
+.content{
+    margin-top: 50px;
+}
+.project-name{
+    font-size: 24px;
+    color: #008b8b;
+    text-decoration: none;
+}
+.navbar-logo{
+    padding: 0;
+}
+.red-icon{
+    color: red;
+}
+.navbar li a{
+    color: black;
+}
+.navbar-toggle .icon-bar{
+    background: gray;
+}
+.nav>li>a:hover{
+    color:#337ab7;
+}
+.carousel-box{
+    height: 400px;
+    background-image: url('../images/homebg.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+}
+.carousel-contain{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    top: 150px;
+    width: 60%;
+    height: 70%;
+    background: white;
+    box-shadow:gray 0 10px 10px 0;
+}
+.second-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.dream-box p{
+    text-align: center;
+}
+.personal-box{
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.personal-box>img{
+    display: block;
+    width: 100%;
+}
+.design-content{
+    padding: 60px;
+}
+.design-content>h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #337ab7;
+}
+.design-content>p{
+    text-indent: 2em;
+}
+
+.img-contain{
+    width: 70%;
+    height: 100%;
+    margin: 40px auto;
+}
+.img-contain>div{
+    padding: 0;
+    position: relative;
+}
+.img-contain>div>img{
+    display: block;
+    width: 100%;
+}
+
+.cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
+    top:0;
+    opacity: 0;
+    background: rgba(17,9,7,.5);
+}
+.img-contain>div:hover .cover{
+   opacity: 1;
+    transition: .3s all linear;
+}
+.cover>p{
+    color: white;
+    padding: 30% 10%;
+}
+.footer-box{
+    height:160px;
+    margin-top: 50px;
+    padding: 10px 0;
+    /*background: url('../images/footbg.png') repeat;*/
+    background: black;
+}
+.footer-contain{
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-contain>div{
+    padding: 30px 0;
+    text-align: center;
+}
+.footer-contain>div>p{
+    color: white;
+}
+.footer-contain>div>p:first-child{
+    font-size: 24px;
+}
+.tourism-box{
+    width: 60%;
+    height: 450px;
+    margin: 80px auto;
+    /*background: rgba(225,225,225,.8);*/
+    background: #ffffff;
+}
+.tourism-box>h3{
+    padding: 20px 0;
+    text-indent: 2em;
+    display: inline-block;
+    width: 30%;
+}
+.line{
+    display: inline-block;
+    width: 70%;
+    border: 1px dashed gray;
+}
+.tourism-left >p{
+    text-indent: 2em;
+}
+.tourism-right img{
+    display: block;
+    width:100%;
+}
+.tourism-small-box{
+    padding: 20px 0 10px 0;
+    height: 120px;
+    overflow: hidden;
+}
+.tourism-small-box>div>img{
+    display: block;
+    width: 100%;
+}
+.diary-design{
+    text-align: center;
+    margin-top:80px;
+}
+.diary-content{
+    width: 80%;
+    /*height: 100%;*/
+    /*border:1px solid red;*/
+    margin:20px auto;
+    position: relative;
+}
+
+
+.diary-info h4 {
+    font-size: 1.2em;
+    background: darkcyan;
+    display: inline-block;
+    padding: .6em 1.2em;
+    color: #fff;
+    position:relative;
+}
+.diary-info h4:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    /*-- w3layouts --*/
+    content: '';
+    top: 9px;
+    right: -14px;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent rgb(0, 139, 139);
+}
+.diary-info h5 {
+    font-size: 1.3em;
+    margin-bottom: .5em;
+    border: 1px solid #008b8b;
+    display: inline-block;
+    padding: 0 1.2em;
+    background: #008b8b;
+    color: white;
+}
+.diary-info h5 span.glyphicon {
+    font-size: 0.9em;
+    color: #fff;
+    background: #008B8B;
+    padding: 1em;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    border-radius: 70%;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+.diary-right h5 span.glyphicon {
+    margin-right: 5em;
+    margin-left: -8em;
+}
+.diary-left {
+    text-align: right;
+    padding: 3em 5em 0 0;
+}
+
+.diary-right {
+    border-left: 1px solid #999;
+    padding: 2.5em 0 2em 3em;
+}
+
+.diary-info:hover h5 span.glyphicon {
+    color: #F7E612;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+.diary-right .glyphicon{
+    left:40px;
+}
+/*--//work--*/
+/*--education--*/
+.education .diary-info h5 {
+    color: #000;
+}
+.footer-contain>p{
+    margin: 0;
+}
+.about-content{
+    margin-top:50px;
+}
+@media screen and (max-width: 767px){
+    .container>.navbar-header{
+        border-bottom: 1px solid gainsboro;
+    }
+    .carousel-box{
+        height: 300px;
+    }
+    .carousel-contain{
+        position: relative;
+        z-index: 2;
+        margin: auto;
+        margin-top: 15%;
+        width: 70%;
+        height: 70%;
+        background: white;
+        box-shadow:gray 0 10px 10px 0;
+    }
+    .second-title{
+        margin-top:100px;
+    }
+    .design-content{
+        padding: 20px;
+    }
+    .personal-box{
+        position: absolute;
+        z-index: -1;
+        top:70px;
+    }
+    .tourism-box>h3{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .line{
+        width: 100%;
+    }
+    .tourism-small-box{
+        display: none;
+    }
+}
+@media (min-width: 600px) and (max-width:768px ) {
+    .second-title{
+        margin-top:120px;
+    }
+}
+@media (min-width: 768px) and (max-width:920px ) {
+    .second-title{
+        margin-top:100px;
+    }
+    .tourism-box>h3{
+        /*font-size: 16px;*/
+        width: 50%;
+    }
+    .line{
+        width: 50%;
+    }
+}
+@media (min-width: 921px) and (max-width:1024px ) {
+    .second-title{
+        margin-top:100px;
+    }
+
+}
+@media (min-width: 927px) and (max-width: 1200px) {
+    .tourism-box>h3{
+        /*font-size: 16px;*/
+        width: 40%;
+    }
+    .line{
+        width: 60%;
+    }
+}
+@media (min-width: 1024px) {
+    .second-title{
+        margin-top:100px;
+    }
+    .tourism-box{
+        height:400px;
+    }
+}
+
+@media (min-width: 1349px) {
+    .tourism-box{
+        height: 500px;
+    }
+    .tourism-right{
+        height: 250px;
+        overflow: hidden;
+    }
+}
+
